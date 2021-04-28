@@ -8,7 +8,7 @@ body{
 }
 
 .wrapper{
-  background: #fff;
+    background: #fff;
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
@@ -16,7 +16,7 @@ body{
 }
 
 .sidebar{
-  background: #1e2939;
+    background: #1e2939;
     width: 370px;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -119,7 +119,7 @@ body{
 }
 
 .profession {
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 23px;
@@ -129,6 +129,7 @@ body{
   font-size: 45px;
   font-weight: 700;
   line-height: 89px;
+  color: #ff6b08;
 }
 
 .description {
