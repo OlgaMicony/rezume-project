@@ -8,9 +8,11 @@ body{
 }
 
 .wrapper{
+    width: 100%;
     background: #fff;
     display: flex;
     max-width: 1200px;
+    min-width: 700px;
     margin: 0 auto;
     box-shadow: 5px 9px 20px rgb(0 0 0 / 15%);
 }
@@ -84,7 +86,7 @@ body{
 .soft-skills-container {
   margin-left: 40px;
   margin-top: 55px;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 
 .soft-skills-title {
@@ -108,7 +110,7 @@ body{
 }
 
 .about-me-container {
-  padding-left: 90px;
+  padding-left: 50px;
   padding-right: 90px;
   padding-top: 110px;
   padding-bottom: 110px;
@@ -213,12 +215,21 @@ body{
   line-height: 24px;
 }
 
-.education-place {
+.education-place {  
   color: #ff6b08;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
   margin-bottom: 15px;
+}
+
+.education-place a{
+  text-decoration: none;
+  color: #ff6b08;
+}
+
+.education-place a:hover{
+  color: #616974;
 }
 
 .education-info {
@@ -242,4 +253,11 @@ body{
   font-size: 12px;
   font-weight: 400;
   line-height: 24px;
+}
+
+@media (max-width: 900px){
+  .name{
+    font-size: 36px;
+    line-height: 2;    
+  }
 }
